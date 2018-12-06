@@ -2,4 +2,97 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.left-float {
+ float: left;
+ width: 225px;
+ font-size: 16px;
+ box-sizing: border-box;
+}
+
+.right-float {
+ float: right;
+ width: 225px;
+ font-size: 16px;
+ box-sizing: border-box;
+}
+
+.table {
+  display: table;
+}
+
+.table-left {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table-right {
+  display: table-cell;
+  padding-left: 50px;
+}
+
+.table-text {
+  box-sizing: border-box;
+  width: 225px;
+  font-size: 16px;
+}
+
+.inline-left {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 225px;
+  font-size: 16px;
+}
+
+.inline-right {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 225px;
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+.kill-space {
+  font-size: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-text {
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+
+.q7-left {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 300px;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.q7-right {
+  display: inline-block;
+  width: 100%;
+  padding-left: 350px;
+  box-sizing: border-box;
+  margin-left: -300px;
+  font-size: 16px;
+  vertical-align: top;
+}
+
 /* 回答はここに書いてね */
