@@ -9,17 +9,17 @@
 }
 
 .left-float {
- float: left;
- width: 225px;
- font-size: 16px;
- box-sizing: border-box;
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 .right-float {
- float: right;
- width: 225px;
- font-size: 16px;
- box-sizing: border-box;
+  float: right;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 .table {
