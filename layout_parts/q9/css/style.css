@@ -5,7 +5,7 @@
 .q9-1 {
   width: 500px;
   height: 333px;
-  margin: auto;
+  margin: 0 auto;
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
@@ -42,10 +42,6 @@
 
 .q9-1:hover .grada {
   bottom: 0;
-}
-
-.q9-2 {
-  margin: 0 auto;
 }
 
 .circle {

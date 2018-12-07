@@ -15,13 +15,13 @@
   word-break: break-all;
 }
 
-.top-image {
+.left-image {
   float:left;
   margin-right:20px;
   margin-bottom: 10px;
 }
 
-.bottom-image {
+.right-image {
   float:right;
   margin-left: 20px;
   margin-bottom: 10px;

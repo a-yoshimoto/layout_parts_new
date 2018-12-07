@@ -259,6 +259,12 @@
   line-height: 26px;
 }
 
+.q8-left-bottom-btn:active {
+  color: #00BCD4;
+  background-color: #fff;
+
+}
+
 .form-right {
   float: right;
   width: 380px;

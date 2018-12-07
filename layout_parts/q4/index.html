@@ -33,20 +33,35 @@
         <!-- 回答はクラスq4の要素の中に書いてね -->
         <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
         <!-- 新たにタグは追加しなくてもできます。 -->
-        <div class="q4">
+        <div class="q4 q4-table">
+          
           <div class="d_table">
-            <div class="top_left">固定</div>
-            <div class="top_center">可変</div>
-            <div class="top_right">固定</div>
+            <div class="top_left table-cell-property">固定</div>
+            <div class="top_center table-cell-property">可変</div>
+            <div class="top_right table-cell-property">固定</div>
           </div>
+
           <div class="d_table">
-            <div class="bottom_left">可変</div>
-            <div class="bottom_center">可変</div>
-            <div class="bottom_right">固定</div>
+            <div class="bottom_left table-cell-property">可変</div>
+            <div class="bottom_center table-cell-property">可変</div>
+            <div class="bottom_right table-cell-property">固定</div>
           </div>
+
         </div>
         <!-- 回答はクラスq4の要素の中に書いてね -->
       </div>
     </div>
   </body>
 </html>
+
+
+<!-- 2018/12/06一回目レビュー
+灰色の部分のpaddingで内側の余白を定義すべきmarginではなく。
+要素と要素の間はmarginとこころえよ。
+
+classには
+
+vertical-align: middle;
+padding: 20px;
+
+などの共通のプロパティがあるので一つのクラスにまとめるべき -->

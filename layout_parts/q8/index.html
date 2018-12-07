@@ -102,81 +102,88 @@
             <form class="q8-form clearfix">
               <div class="form-title">
                 <div class="form-title-text">
-                Form Exercise
+                 Form Exercise
                 </div>
               </div>
+
               <div class="form-left">
                <ul class="form-left-items">
-                 <li class="clearfix">
+                
+                <li class="clearfix">
                   <p class="form-left-item-title">名前<span class="required">*</span></p>
                    <div class="form-left-item-content">
                     <input type="text" name="name" class="q8-input q8-input-init" required="">
                    </div>
-                 </li>
-                 <li class="clearfix">
-                    <p class="form-left-item-title">性別</p>
-                     <div class="form-left-item-content">
-                      <label class="q8-radio">
-                      <input type="radio" name="gender" value="male" class="q8-radio-btn"><span class="q8-radio-text">男性</span>
-                     </label>
-                      <label class="q8-radio">
-                        <input type="radio" name="gender" value="female" class="q8-radio-btn"><span class="q8-radio-text">女性</span>
-                      </label>
-                       </div>
-                 </li>
-                 <li class="clearfix">
-                    <p class="form-left-item-title">出身</p>
-                    <div class="form-left-item-content q8-select">
-                      <select name="hometwon" id="" class="q8-select-body q8-input-init">
+                </li>
+               
+                <li class="clearfix">
+                  <p class="form-left-item-title">性別</p>
+                  <div class="form-left-item-content">
+                    <label class="q8-radio">
+                     <input type="radio" name="gender" value="male" class="q8-radio-btn"><span class="q8-radio-text">男性</span>
+                    </label>
+                    <label class="q8-radio">
+                     <input type="radio" name="gender" value="female" class="q8-radio-btn"><span class="q8-radio-text">女性</span>
+                    </label>
+                  </div>
+                </li>
+
+                <li class="clearfix">
+                   <p class="form-left-item-title">出身</p>
+                   <div class="form-left-item-content q8-select">
+                     <select name="hometwon" id="" class="q8-select-body q8-input-init">
                         <option value="tokyo">東京</option>
                         <option value="saitama">埼玉</option>
                         <option value="chiba">千葉</option>
                         <option value="kanagawa">神奈川</option>
                       </select>
                     </div>
-                 </li>
-                 <li class="clearfix">
+                </li>
+
+                <li class="clearfix">
                   <p class="form-left-item-title">Eメール<span class="required">*</span></p> 
                   <div class="form-left-item-content">
-                      <input type="email" class="q8-input q8-input-init" placeholder="ex) hoge@gmail.com" name="email" required="">
+                    <input type="email" class="q8-input q8-input-init" placeholder="ex) hoge@gmail.com" name="email" required="">
+                  </div>
+                </li>
+
+                <li class="clearfix">
+                  <p class="form-left-item-title">電話番号</p> 
+                  <div class="form-left-item-content">
+                    <input type="text" class="q8-input q8-input-init" placeholder="ex) 08012345678" name="tel">
+                  </div>
+                </li>
+
+                <li class="clearfix">
+                  <div class="form-left-item-content">
+                    <div class="q8-checkbox">
+                      <input type="checkbox" class="q8-check-box" name="twenty" id="q8-checkbox" value="true">
+                        <label for="q8-checkbox" class="q8-checkbox-text">20歳以上です</label>
                      </div>
-                 </li>
-                 <li class="clearfix">
-                    <p class="form-left-item-title">電話番号</p> 
-                    <div class="form-left-item-content">
-                        <input type="text" class="q8-input q8-input-init" placeholder="ex) 08012345678" name="tel">
-                       </div>
-                 </li>
-                 <li class="clearfix">
-                    <div class="form-left-item-content">
-                      <div class="q8-checkbox">
-                        <input type="checkbox" class="q8-check-box" name="twenty" id="q8-checkbox" value="true">
-                          <label for="q8-checkbox" class="q8-checkbox-text">20歳以上です</label>
-                      </div>
-                      </div>
+                   </div>
                  </li>
                </ul>
+
                <div class="form-left-bottom">
                 <button type="submit" class="q8-input-init q8-left-bottom-btn">送信</button>
-              </div>
-
+               </div>
               </div>
               
-
               <div class="form-right">
                 <textarea name="message" id="" cols="30" rows="10" placeholder="何かあれば入力してください。" class="q8-right-text q8-input-init"></textarea>
-
               </div>
-
-
+              
             </form>
             
-
-
           </div>
           <!-- 回答はここに書いてね -->
-        </div>
+       </div>
       </div>
     </div>
   </body>
 </html>
+
+
+<!-- 2018/12/06一回目レビュー
+送信ボタンを長押しすると白くなることが実装されていない
+インデントを揃えろ -->
